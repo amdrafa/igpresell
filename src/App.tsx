@@ -1,4 +1,12 @@
 import './App.css';
+import sinais from "./assets/porcentagem.jpeg"
+import porcentagem1 from "./assets/porcentagem1.png"
+import porcentagem2 from "./assets/porcentagem2.png"
+import porcentagem3 from "./assets/porcentagem3.png"
+import porcentagem4 from "./assets/porcentagem4.png"
+import porcentagem5 from "./assets/porcentagem5.png"
+
+
 
 function App() {
   return (
@@ -7,7 +15,7 @@ function App() {
         VOCÊ GANHOU 40 RODADAS GRÁTIS
       </div>
       <main className='main-bg bg-black text-white'>
-        <div className='flex flex-col justify-center items-center px-2 mb-28'>
+        <div className='flex flex-col justify-center items-center px-2 mb-36'>
           <span className='text-7xl mb-4'>
             🔞
           </span>
@@ -22,6 +30,18 @@ function App() {
               FINALIZE SEU CADASTRO
             </button>
           </a>
+
+          <div className='mt-8'>
+            Arraste para o lado.
+          </div>
+
+          <div className='overflow-auto flex'>
+            <img width={150} src={porcentagem1} alt="" />
+            <img width={150} src={porcentagem2} alt="" />
+            <img width={150} src={porcentagem3} alt="" />
+            <img width={150} src={porcentagem4} alt="" />
+            <img width={150} src={porcentagem5} alt="" />
+          </div>
         </div>
       </main>
     </div>
