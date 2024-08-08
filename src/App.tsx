@@ -1,5 +1,4 @@
 import './App.css';
-import sinais from "./assets/porcentagem.jpeg"
 import porcentagem1 from "./assets/porcentagem1.png"
 import porcentagem2 from "./assets/porcentagem2.png"
 import porcentagem3 from "./assets/porcentagem3.png"
