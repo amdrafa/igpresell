@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <div className="flex justify-center bg-red-500 text-white  font-extrabold py-2 text-xl">
-        DEPÓSITO MÍNIMO: R$20
+        DEPÓSITO MÍNIMO: R$5
       </div>
       <main className='main-bg bg-black text-white'>
         <div className='flex flex-col justify-center items-center px-2 mt-2'>
