@@ -55,7 +55,36 @@ function App() {
             <img width={150} src={porcentagem5} alt="" />
           </a>
 
+          (
+          <footer className="bg-gray-800 text-gray-400 py-8">
+            <div className="container mx-auto px-4">
+              <div className="flex flex-col md:flex-row justify-between items-center">
+                <div className="mb-4 md:mb-0">
+                  <h2 className="text-lg font-semibold text-gray-100">Nome da Empresa</h2>
+                  <p className="text-sm">CNPJ: 12.345.678/0001-90</p>
+                  <p className="text-sm">Endereço: Rua Conceição, 253, Bairro São João, Itajaí - SC</p>
+                  <p className="text-sm">Telefone: (11) 1234-5678</p>
+                  <p className="text-sm">E-mail: contato@empresa.com.br</p>
+                </div>
+                <div className="mb-4 md:mb-0">
+                  <p className="text-sm">© {new Date().getFullYear()} BlackSolutions. Todos os direitos reservados.</p>
+                  <p className="text-sm">Termos de Uso | Política de Privacidade</p>
+                </div>
+                <div className="flex space-x-4">
+                  <a href="https://www.facebook.com/suaempresa" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.496v-9.294h-3.127v-3.622h3.127v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.795.143v3.239l-1.918.001c-1.505 0-1.796.715-1.796 1.763v2.312h3.59l-.467 3.622h-3.123v9.294h6.116c.731 0 1.324-.593 1.324-1.324v-21.35c0-.732-.593-1.325-1.324-1.325z" />
+                    </svg>
+                  </a>
+                  {/* Outros ícones de redes sociais podem ser adicionados aqui */}
+                </div>
+              </div>
+            </div>
+          </footer>
+
         </div>
+
+
       </main>
     </div>
   );
