@@ -115,6 +115,18 @@ function App() {
             </span>
           </div>
 
+          <div className='font-extrabold mt-1 mb-2 text-3xl'>
+            <span className="text-transparent text-3xl bg-clip-text bg-gradient-to-r from-green-400 to-green-600">
+              + ALAVANCAGENS
+            </span>
+          </div>
+
+          <div className='font-extrabold mt-1 mb-2 text-3xl'>
+            <span className="text-transparent text-3xl bg-clip-text bg-gradient-to-r from-green-400 to-green-600">
+              + ESTRATÉGIAS
+            </span>
+          </div>
+
           <a href="https://4play.bet/affiliates/?btag=2042404" className='overflow-auto flex'>
             <img width={120} src={porcentagem1} alt="" />
             <img width={120} src={porcentagem2} alt="" />
